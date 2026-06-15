@@ -9,5 +9,4 @@
 Network Encryption
 
 ## [overview]
-Network encryption is required for compliance with standards such as PCI that require encryption of data in transit.
-While Kubernetes does not natively support encryption, Talos Linux enables full node to node network encryption with automated secure key exchange simply by enabling KubeSpan.
+Network encryption is required for compliance with standards such as PCI that require encryption of data in transit. While Kubernetes does not natively support encryption, Talos Linux enables full node-to-node network encryption with automated secure key exchange by enabling [KubeSpan](https://docs.siderolabs.com/talos/v1.13/networking/kubespan).
